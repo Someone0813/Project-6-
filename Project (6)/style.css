@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #E0E8FF;
+    background-image: url(./images/Bg-img.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+main{
+    width: 450px;
+    height: 697px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+.Main-text1{
+    width: 354px;
+    height: 37px;
+    margin-top: 45px;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37.04px;
+    text-align: center;
+    color: #1F2E55;
+}
+.Main-text2{
+    width: 354px;
+    height: 78px;
+    margin-top: 17px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: Center;
+    color: #717FA6;
+}
+.Main-text3{
+    width: 354px;
+    height: 98px;
+    background-color: #F7F9FF;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+.Music{
+    margin-left: 24px;
+}
+.mt3-1{
+    width: 98px;
+    height: 48px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.mt3-11{
+    width: 117.19px;
+    height: 21px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21.17px;
+    color: #1F2E55;
+}
+.mt3-12{
+    width: 117.19px;
+    height: 21px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.17px;
+    color: #717FA6;
+}
+.a1{
+    width: 52px;
+    height: 19px;
+    margin-left: 94px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18.52px;
+    overflow: hidden;
+    cursor: pointer;
+    color: #382AE1;
+}
+.a1:active{
+    color: #766CF1;
+    text-decoration: none;
+}
+.a2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 354px;
+    height: 50px;
+    margin-top: 47px;
+    background-color: #382AE1;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 19.85px;
+    color: #FFFFFF;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.a2:active{
+    background-color: #766CF1;
+}
+.a3{
+    width: 96px;
+    height: 20px;
+    margin-top: 32px;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 19.85px;
+    color: #717FA6;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.a3:active{
+    color: #1F2E55;
+}
